@@ -7,13 +7,61 @@
     <packageImport xmi:type="uml:PackageImport" xmi:id="__U7YsPcuEemNNa0TWZnNQw">
       <importedPackage xmi:type="uml:Package" href="pathmap://SysML16_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries"/>
     </packageImport>
-    <packagedElement xmi:type="uml:Class" xmi:id="_M69JgPcvEemNNa0TWZnNQw" name="Indicateur Santé"/>
-    <packagedElement xmi:type="uml:Class" xmi:id="_kyJBEPcvEemNNa0TWZnNQw" name="Indicateurs détaillés"/>
-    <packagedElement xmi:type="uml:Class" xmi:id="_1yOd8PcvEemNNa0TWZnNQw" name="Prévisions"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_85JdUPcvEemNNa0TWZnNQw" name="Conseils"/>
-    <packagedElement xmi:type="uml:Class" xmi:id="_SnFJYPcwEemNNa0TWZnNQw" name="Température"/>
-    <packagedElement xmi:type="uml:Abstraction" xmi:id="_0sw1QPcwEemNNa0TWZnNQw" name="" client="_SnFJYPcwEemNNa0TWZnNQw" supplier="_M69JgPcvEemNNa0TWZnNQw"/>
-    <packagedElement xmi:type="uml:Class" xmi:id="_Ix8lYPcyEemNNa0TWZnNQw" name="Humidité"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_0sw1QPcwEemNNa0TWZnNQw" name="" client="_SnFJYPcwEemNNa0TWZnNQw" supplier="__NIuoPcuEemNNa0TWZnNQw"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_ZhqZEPc0EemNNa0TWZnNQw" name="" client="_Ix8lYPcyEemNNa0TWZnNQw" supplier="__NIuoPcuEemNNa0TWZnNQw"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_nhrhwPc1EemNNa0TWZnNQw" name="" client="_tzcssPczEemNNa0TWZnNQw" supplier="__NIuoPcuEemNNa0TWZnNQw"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_roY4cPc1EemNNa0TWZnNQw" name="" client="_zm8VUPczEemNNa0TWZnNQw" supplier="_M69JgPcvEemNNa0TWZnNQw"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_RhnR8Pc3EemNNa0TWZnNQw" name="Indicateur santé">
+      <packagedElement xmi:type="uml:Class" xmi:id="_M69JgPcvEemNNa0TWZnNQw" name="Indicateur Santé"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_SnFJYPcwEemNNa0TWZnNQw" name="Température"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_Ix8lYPcyEemNNa0TWZnNQw" name="Humidité"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_YIGakPczEemNNa0TWZnNQw" name="CO2"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_lBgV8PczEemNNa0TWZnNQw" name="COV"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_tzcssPczEemNNa0TWZnNQw" name="Déplacement d'air"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_zm8VUPczEemNNa0TWZnNQw" name="Consommation électrique"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_3AY9YPczEemNNa0TWZnNQw" name="Production électrique"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_OgiN8Pc0EemNNa0TWZnNQw" name="Ratio production / consommation"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_JuLVYPc4EemNNa0TWZnNQw" name="" client="_OgiN8Pc0EemNNa0TWZnNQw" supplier="_M69JgPcvEemNNa0TWZnNQw"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_-IoycPczEemNNa0TWZnNQw" name="Eau chaude restante"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_EV-ecPc0EemNNa0TWZnNQw" name="Charge voiture électrique"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_P9CEUPc4EemNNa0TWZnNQw" name="" client="_EV-ecPc0EemNNa0TWZnNQw" supplier="_M69JgPcvEemNNa0TWZnNQw"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_VWnYIPc4EemNNa0TWZnNQw" name="" client="_-IoycPczEemNNa0TWZnNQw" supplier="_M69JgPcvEemNNa0TWZnNQw"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_JkFv0Pc5EemNNa0TWZnNQw" name="" client="_YIGakPczEemNNa0TWZnNQw" supplier="_M69JgPcvEemNNa0TWZnNQw"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_N5rQAPc5EemNNa0TWZnNQw" name="" client="_lBgV8PczEemNNa0TWZnNQw" supplier="_M69JgPcvEemNNa0TWZnNQw"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_RdGTcPc5EemNNa0TWZnNQw" name="" client="_tzcssPczEemNNa0TWZnNQw" supplier="_M69JgPcvEemNNa0TWZnNQw"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_U5Q4UPc5EemNNa0TWZnNQw" name="" client="_3AY9YPczEemNNa0TWZnNQw" supplier="_M69JgPcvEemNNa0TWZnNQw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_glM7APc5EemNNa0TWZnNQw" name="Indicateurs détaillés">
+      <packagedElement xmi:type="uml:Class" xmi:id="_kyJBEPcvEemNNa0TWZnNQw" name="Indicateurs détaillés"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_whTyYPc5EemNNa0TWZnNQw" name="Qualité de l'air"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_23Hd4Pc5EemNNa0TWZnNQw" name="Consommation électrique"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_s_e08Pc6EemNNa0TWZnNQw" name="Production électrique"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_w-ExcPc6EemNNa0TWZnNQw" name="Voiture"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_Oq_bYPc9EemNNa0TWZnNQw" name="Eau chaude restante"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_Un--QPc9EemNNa0TWZnNQw" name="Ratio production / consommation"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_mT8psPc9EemNNa0TWZnNQw" name="" client="_whTyYPc5EemNNa0TWZnNQw" supplier="_kyJBEPcvEemNNa0TWZnNQw"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_nt7UYPc9EemNNa0TWZnNQw" name="" client="_23Hd4Pc5EemNNa0TWZnNQw" supplier="_kyJBEPcvEemNNa0TWZnNQw"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_owin8Pc9EemNNa0TWZnNQw" name="" client="_s_e08Pc6EemNNa0TWZnNQw" supplier="_kyJBEPcvEemNNa0TWZnNQw"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_qVUNYPc9EemNNa0TWZnNQw" name="" client="_w-ExcPc6EemNNa0TWZnNQw" supplier="_kyJBEPcvEemNNa0TWZnNQw"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_rgKP4Pc9EemNNa0TWZnNQw" name="" client="_Oq_bYPc9EemNNa0TWZnNQw" supplier="_kyJBEPcvEemNNa0TWZnNQw"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_sQ_28Pc9EemNNa0TWZnNQw" name="" client="_Un--QPc9EemNNa0TWZnNQw" supplier="_kyJBEPcvEemNNa0TWZnNQw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_83ZogPc9EemNNa0TWZnNQw" name="Prévisions journée / semaine">
+      <packagedElement xmi:type="uml:Class" xmi:id="_1yOd8PcvEemNNa0TWZnNQw" name="Prévisions"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_MI7R0Pc-EemNNa0TWZnNQw" name="Qualité de l'air"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_xFpcQPc-EemNNa0TWZnNQw" name="" client="_MI7R0Pc-EemNNa0TWZnNQw" supplier="_1yOd8PcvEemNNa0TWZnNQw"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_zLbdAPc-EemNNa0TWZnNQw" name="Consommation électrique"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_7LayYPc-EemNNa0TWZnNQw" name="Production électrique"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_DMxZsPc_EemNNa0TWZnNQw" name="Charge de la voiture électrique"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_Ph1R4Pc_EemNNa0TWZnNQw" name="Quantité d'eau chaude"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_X3VkQPc_EemNNa0TWZnNQw" name="Ratio production / consommation"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_fOD6MPc_EemNNa0TWZnNQw" name="" client="_zLbdAPc-EemNNa0TWZnNQw" supplier="_1yOd8PcvEemNNa0TWZnNQw"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_gTM9UPc_EemNNa0TWZnNQw" name="" client="_7LayYPc-EemNNa0TWZnNQw" supplier="_1yOd8PcvEemNNa0TWZnNQw"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_hdSx4Pc_EemNNa0TWZnNQw" name="" client="_DMxZsPc_EemNNa0TWZnNQw" supplier="_1yOd8PcvEemNNa0TWZnNQw"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_ixdvgPc_EemNNa0TWZnNQw" name="" client="_Ph1R4Pc_EemNNa0TWZnNQw" supplier="_1yOd8PcvEemNNa0TWZnNQw"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_jqV4QPc_EemNNa0TWZnNQw" name="" client="_X3VkQPc_EemNNa0TWZnNQw" supplier="_1yOd8PcvEemNNa0TWZnNQw"/>
+    </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="__QNQwPcuEemNNa0TWZnNQw">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__QQUEPcuEemNNa0TWZnNQw" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#/"/>
@@ -79,7 +127,49 @@
   <Requirements:Requirement xmi:id="_kyN5kPcvEemNNa0TWZnNQw" base_NamedElement="_kyJBEPcvEemNNa0TWZnNQw" id="detailles" text="Affichage des indicateurs détaillés sur différents domaines (en instantané et avec des graphiques)&#xA;" base_Class="_kyJBEPcvEemNNa0TWZnNQw"/>
   <Requirements:Requirement xmi:id="_1ySIUPcvEemNNa0TWZnNQw" base_NamedElement="_1yOd8PcvEemNNa0TWZnNQw" id="previsions" text="Affichage des prévisions pour la journée / semaine" base_Class="_1yOd8PcvEemNNa0TWZnNQw"/>
   <Requirements:Requirement xmi:id="_85NHsPcvEemNNa0TWZnNQw" base_NamedElement="_85JdUPcvEemNNa0TWZnNQw" id="conseils" text="Affichage de conseils / alertes" base_Class="_85JdUPcvEemNNa0TWZnNQw"/>
-  <Requirements:Requirement xmi:id="_SnIzwPcwEemNNa0TWZnNQw" base_NamedElement="_SnFJYPcwEemNNa0TWZnNQw" id="temperature" text="Informations sur la température (en degrés)&#xA;" base_Class="_SnFJYPcwEemNNa0TWZnNQw"/>
+  <Requirements:Requirement xmi:id="_SnIzwPcwEemNNa0TWZnNQw" base_NamedElement="_SnFJYPcwEemNNa0TWZnNQw" id="temperature" text="Informations sur la température&#xA;&#xA;" base_Class="_SnFJYPcwEemNNa0TWZnNQw"/>
   <Requirements:Refine xmi:id="_0sz4kPcwEemNNa0TWZnNQw" base_DirectedRelationship="_0sw1QPcwEemNNa0TWZnNQw" base_Abstraction="_0sw1QPcwEemNNa0TWZnNQw"/>
-  <Requirements:Requirement xmi:id="_IyAPwPcyEemNNa0TWZnNQw" base_NamedElement="_Ix8lYPcyEemNNa0TWZnNQw" id="humidite" text="Informations sur le taux d'humidité (en pourcentage dans l'atmosphère)" base_Class="_Ix8lYPcyEemNNa0TWZnNQw"/>
+  <Requirements:Requirement xmi:id="_IyAPwPcyEemNNa0TWZnNQw" base_NamedElement="_Ix8lYPcyEemNNa0TWZnNQw" id="humidite" text="Informations sur le taux d'humidité" base_Class="_Ix8lYPcyEemNNa0TWZnNQw"/>
+  <Requirements:Requirement xmi:id="_YII20PczEemNNa0TWZnNQw" base_NamedElement="_YIGakPczEemNNa0TWZnNQw" id="co2" text="Informations sur le taux de CO2" base_Class="_YIGakPczEemNNa0TWZnNQw"/>
+  <Requirements:Requirement xmi:id="_lBkAUPczEemNNa0TWZnNQw" base_NamedElement="_lBgV8PczEemNNa0TWZnNQw" id="cov" text="Informations sur le taux de COV" base_Class="_lBgV8PczEemNNa0TWZnNQw"/>
+  <Requirements:Requirement xmi:id="_tzfI8PczEemNNa0TWZnNQw" base_NamedElement="_tzcssPczEemNNa0TWZnNQw" id="deplacementAir" text="Détection de courants d'air" base_Class="_tzcssPczEemNNa0TWZnNQw"/>
+  <Requirements:Requirement xmi:id="_zm__sPczEemNNa0TWZnNQw" base_NamedElement="_zm8VUPczEemNNa0TWZnNQw" id="consoElectrique" text="Consommation électrique de la maison&#xA;" base_Class="_zm8VUPczEemNNa0TWZnNQw"/>
+  <Requirements:Requirement xmi:id="_3AbZoPczEemNNa0TWZnNQw" base_NamedElement="_3AY9YPczEemNNa0TWZnNQw" id="prodElectrique" text="Production électrique de la maison" base_Class="_3AY9YPczEemNNa0TWZnNQw"/>
+  <Requirements:Requirement xmi:id="_-IrOsPczEemNNa0TWZnNQw" base_NamedElement="_-IoycPczEemNNa0TWZnNQw" id="eauChaudeRestante" text="Quantité d'eau chaude restante" base_Class="_-IoycPczEemNNa0TWZnNQw"/>
+  <Requirements:Requirement xmi:id="_EWA6sPc0EemNNa0TWZnNQw" base_NamedElement="_EV-ecPc0EemNNa0TWZnNQw" id="chargeVoitureElectrique" text="Charge de la voiture électrique (optionnel en fonction de ce qu'affiche la voiture)" base_Class="_EV-ecPc0EemNNa0TWZnNQw"/>
+  <Requirements:Requirement xmi:id="_OgkqMPc0EemNNa0TWZnNQw" base_NamedElement="_OgiN8Pc0EemNNa0TWZnNQw" id="ratioProdConso" text="Ratio production / consommation électrique" base_Class="_OgiN8Pc0EemNNa0TWZnNQw"/>
+  <Requirements:Refine xmi:id="_ZhsOQPc0EemNNa0TWZnNQw" base_DirectedRelationship="_ZhqZEPc0EemNNa0TWZnNQw" base_Abstraction="_ZhqZEPc0EemNNa0TWZnNQw"/>
+  <Requirements:DeriveReqt xmi:id="_nht-APc1EemNNa0TWZnNQw" base_DirectedRelationship="_nhrhwPc1EemNNa0TWZnNQw" base_Abstraction="_nhrhwPc1EemNNa0TWZnNQw"/>
+  <Requirements:Refine xmi:id="_robUsPc1EemNNa0TWZnNQw" base_DirectedRelationship="_roY4cPc1EemNNa0TWZnNQw" base_Abstraction="_roY4cPc1EemNNa0TWZnNQw"/>
+  <Requirements:Refine xmi:id="_JuNKkPc4EemNNa0TWZnNQw" base_DirectedRelationship="_JuLVYPc4EemNNa0TWZnNQw" base_Abstraction="_JuLVYPc4EemNNa0TWZnNQw"/>
+  <Requirements:Refine xmi:id="_P9EgkPc4EemNNa0TWZnNQw" base_DirectedRelationship="_P9CEUPc4EemNNa0TWZnNQw" base_Abstraction="_P9CEUPc4EemNNa0TWZnNQw"/>
+  <Requirements:Refine xmi:id="_VWomQPc4EemNNa0TWZnNQw" base_DirectedRelationship="_VWnYIPc4EemNNa0TWZnNQw" base_Abstraction="_VWnYIPc4EemNNa0TWZnNQw"/>
+  <Requirements:Refine xmi:id="_JkG98Pc5EemNNa0TWZnNQw" base_DirectedRelationship="_JkFv0Pc5EemNNa0TWZnNQw" base_Abstraction="_JkFv0Pc5EemNNa0TWZnNQw"/>
+  <Requirements:Refine xmi:id="_N5tFMPc5EemNNa0TWZnNQw" base_DirectedRelationship="_N5rQAPc5EemNNa0TWZnNQw" base_Abstraction="_N5rQAPc5EemNNa0TWZnNQw"/>
+  <Requirements:Refine xmi:id="_RdIIoPc5EemNNa0TWZnNQw" base_DirectedRelationship="_RdGTcPc5EemNNa0TWZnNQw" base_Abstraction="_RdGTcPc5EemNNa0TWZnNQw"/>
+  <Requirements:Refine xmi:id="_U5StgPc5EemNNa0TWZnNQw" base_DirectedRelationship="_U5Q4UPc5EemNNa0TWZnNQw" base_Abstraction="_U5Q4UPc5EemNNa0TWZnNQw"/>
+  <Requirements:Requirement xmi:id="_whW1sPc5EemNNa0TWZnNQw" base_NamedElement="_whTyYPc5EemNNa0TWZnNQw" id="qualiteAir" text="Affichage de la qualité de l'air" base_Class="_whTyYPc5EemNNa0TWZnNQw"/>
+  <Requirements:Requirement xmi:id="_23J6IPc5EemNNa0TWZnNQw" base_NamedElement="_23Hd4Pc5EemNNa0TWZnNQw" id="consoElectrique" text="Affichage de la consommation électrique en €&#xA;" base_Class="_23Hd4Pc5EemNNa0TWZnNQw"/>
+  <Requirements:Requirement xmi:id="_s_h4QPc6EemNNa0TWZnNQw" base_NamedElement="_s_e08Pc6EemNNa0TWZnNQw" id="prodElectrique" text="Production électrique en €" base_Class="_s_e08Pc6EemNNa0TWZnNQw"/>
+  <Requirements:Requirement xmi:id="_w-HNsPc6EemNNa0TWZnNQw" base_NamedElement="_w-ExcPc6EemNNa0TWZnNQw" id="capaciteDeplacementVoiture" text="Capacité de déplacement de la voiture&#xA;" base_Class="_w-ExcPc6EemNNa0TWZnNQw"/>
+  <Requirements:Requirement xmi:id="_OrB3oPc9EemNNa0TWZnNQw" base_NamedElement="_Oq_bYPc9EemNNa0TWZnNQw" id="eauChaudeRestante" text="Quantité d'eau chaude restante" base_Class="_Oq_bYPc9EemNNa0TWZnNQw"/>
+  <Requirements:Requirement xmi:id="_UoAMcvc9EemNNa0TWZnNQw" base_NamedElement="_Un--QPc9EemNNa0TWZnNQw" id="ratioProdConso" text="Ratio production / consommation électrique" base_Class="_Un--QPc9EemNNa0TWZnNQw"/>
+  <Requirements:Refine xmi:id="_mT_F8Pc9EemNNa0TWZnNQw" base_DirectedRelationship="_mT8psPc9EemNNa0TWZnNQw" base_Abstraction="_mT8psPc9EemNNa0TWZnNQw"/>
+  <Requirements:Refine xmi:id="_nt9JkPc9EemNNa0TWZnNQw" base_DirectedRelationship="_nt7UYPc9EemNNa0TWZnNQw" base_Abstraction="_nt7UYPc9EemNNa0TWZnNQw"/>
+  <Requirements:Refine xmi:id="_owj2EPc9EemNNa0TWZnNQw" base_DirectedRelationship="_owin8Pc9EemNNa0TWZnNQw" base_Abstraction="_owin8Pc9EemNNa0TWZnNQw"/>
+  <Requirements:Refine xmi:id="_qVWCkPc9EemNNa0TWZnNQw" base_DirectedRelationship="_qVUNYPc9EemNNa0TWZnNQw" base_Abstraction="_qVUNYPc9EemNNa0TWZnNQw"/>
+  <Requirements:Refine xmi:id="_rgMFEPc9EemNNa0TWZnNQw" base_DirectedRelationship="_rgKP4Pc9EemNNa0TWZnNQw" base_Abstraction="_rgKP4Pc9EemNNa0TWZnNQw"/>
+  <Requirements:Refine xmi:id="_sRBFEPc9EemNNa0TWZnNQw" base_DirectedRelationship="_sQ_28Pc9EemNNa0TWZnNQw" base_Abstraction="_sQ_28Pc9EemNNa0TWZnNQw"/>
+  <Requirements:Requirement xmi:id="_MI9uEPc-EemNNa0TWZnNQw" base_NamedElement="_MI7R0Pc-EemNNa0TWZnNQw" id="previsionsQualiteAir" text="Prévisions de la qualité de l'air" base_Class="_MI7R0Pc-EemNNa0TWZnNQw"/>
+  <Requirements:Refine xmi:id="_xFrRcPc-EemNNa0TWZnNQw" base_DirectedRelationship="_xFpcQPc-EemNNa0TWZnNQw" base_Abstraction="_xFpcQPc-EemNNa0TWZnNQw"/>
+  <Requirements:Requirement xmi:id="_zLd5QPc-EemNNa0TWZnNQw" base_NamedElement="_zLbdAPc-EemNNa0TWZnNQw" id="previsionsConsoElectrique" text="Prévisions de la consommation électrique&#xA;" base_Class="_zLbdAPc-EemNNa0TWZnNQw"/>
+  <Requirements:Requirement xmi:id="_7LdOoPc-EemNNa0TWZnNQw" base_NamedElement="_7LayYPc-EemNNa0TWZnNQw" id="previsionsProdElectrique" text="Prévisions de la production électrique&#xA;" base_Class="_7LayYPc-EemNNa0TWZnNQw"/>
+  <Requirements:Requirement xmi:id="_DMz18Pc_EemNNa0TWZnNQw" base_NamedElement="_DMxZsPc_EemNNa0TWZnNQw" id="previsionsChargeVoitureElectrique" text="Prévisions de la charge de la voiture électrique (heure à laquelle la voiture sera chargée)" base_Class="_DMxZsPc_EemNNa0TWZnNQw"/>
+  <Requirements:Requirement xmi:id="_Ph3uIPc_EemNNa0TWZnNQw" base_NamedElement="_Ph1R4Pc_EemNNa0TWZnNQw" id="previsionsQuantiteEauChaude" text="Prévisions de la quantité d'eau chaude" base_Class="_Ph1R4Pc_EemNNa0TWZnNQw"/>
+  <Requirements:Requirement xmi:id="_X3YAgPc_EemNNa0TWZnNQw" base_NamedElement="_X3VkQPc_EemNNa0TWZnNQw" id="previsionsRatioProdConso" text="Prévisions du ratio production / consommation électrique" base_Class="_X3VkQPc_EemNNa0TWZnNQw"/>
+  <Requirements:Refine xmi:id="_fOG9gPc_EemNNa0TWZnNQw" base_DirectedRelationship="_fOD6MPc_EemNNa0TWZnNQw" base_Abstraction="_fOD6MPc_EemNNa0TWZnNQw"/>
+  <Requirements:Refine xmi:id="_gTPZkPc_EemNNa0TWZnNQw" base_DirectedRelationship="_gTM9UPc_EemNNa0TWZnNQw" base_Abstraction="_gTM9UPc_EemNNa0TWZnNQw"/>
+  <Requirements:Refine xmi:id="_hdUnEPc_EemNNa0TWZnNQw" base_DirectedRelationship="_hdSx4Pc_EemNNa0TWZnNQw" base_Abstraction="_hdSx4Pc_EemNNa0TWZnNQw"/>
+  <Requirements:Refine xmi:id="_ixfksPc_EemNNa0TWZnNQw" base_DirectedRelationship="_ixdvgPc_EemNNa0TWZnNQw" base_Abstraction="_ixdvgPc_EemNNa0TWZnNQw"/>
+  <Requirements:Refine xmi:id="_jqXGYPc_EemNNa0TWZnNQw" base_DirectedRelationship="_jqV4QPc_EemNNa0TWZnNQw" base_Abstraction="_jqV4QPc_EemNNa0TWZnNQw"/>
 </xmi:XMI>
